@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="C:\Users\Valentin\grpc\examples\csharp\BoersenGeschaeft\boersen_geschaeft.proto" Link="BoersenGeschaeft\boersen_geschaeft.proto" />
+    <Protobuf Include="..\boersen_geschaeft.proto" Link="BoersenGeschaeft\boersen_geschaeft.proto" />
   </ItemGroup>
 
   <ItemGroup>
