@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.5</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.8.0" />
+    <PackageReference Include="Grpc" Version="2.23.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.23.0" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="C:\Users\Valentin\grpc\examples\csharp\BoersenGeschaeft\boersen_geschaeft.proto" Link="BoersenGeschaeft\boersen_geschaeft.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="boersen_geschaeft_db.json" />
+  </ItemGroup>
+
+</Project>

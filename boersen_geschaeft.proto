@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package boerse;
+
+service BoersenGeschaeft {
+  
+  rpc GetBoerse(BoerseRequest) returns (BoerseResponse) {}
+
+  rpc ListBoersen(BoerseRequest2) returns (stream BoerseResponse) {}
+
+}
+
+message BoerseRequest{
+
+  string tradeNummer = 1;
+
+}
+
+
+message BoerseRequest2{
+
+  int32 minuten =1;
+
+}
+
+
+message BoerseResponse{
+
+  string tradeNummer = 1;
+  string bezeichnung = 2;
+  int32 wert = 3;
+  string time = 4;
+
+}
+
+

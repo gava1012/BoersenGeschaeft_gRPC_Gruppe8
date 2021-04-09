@@ -1,0 +1,26 @@
+[
+  {
+    "tradeNummer": "234",
+    "bezeichnung": "a",
+    "wert": 25,
+    "time" : "09-04-2021-15-00"
+  },
+  {
+    "tradeNummer": "5555",
+    "bezeichnung": "b",
+    "wert": 25,
+    "time": "09-04-2021-15-45"
+  },
+  {
+    "tradeNummer": "222",
+    "bezeichnung": "c",
+    "wert": 25,
+    "time": "12-04-2022-22-50"
+  },
+  {
+    "tradeNummer": "345",
+    "bezeichnung": "d",
+    "wert": 25,
+    "time": "13-05-2022-12-00"
+  }
+]
